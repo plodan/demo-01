@@ -1,6 +1,6 @@
 public class Main {
     public static void main(String[] args) {
-        boolean passIsValid = true;
+        boolean passIsValid = false;
         boolean inCarantine = true;
 
         String message = passIsValid && !inCarantine?
