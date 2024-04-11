@@ -4,7 +4,7 @@ public class Main {
         boolean inCarantine = true;
 
         String message = passIsValid && !inCarantine?
-                "Проход открыт":"Проход закрыт";
+                "Проход открыто":"Проход закрыто";
 
         System.out.println(message);
     }
